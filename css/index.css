@@ -1,0 +1,74 @@
+body{
+	overflow-x: hidden;
+	background-image:url(../img/back.jpg)
+	
+}
+
+h1{
+	font-size: 80px;
+}
+
+h5{
+	font-size: 25px;
+}
+
+#logo-img{
+	max-width: 300px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+
+}
+
+#row2{
+
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+
+#botao{
+	margin-top: 13%;
+	width: 150px;
+	background-color: #995a93;
+	border: 0;
+	height: 50px;
+	font-size: 23px;
+	font-weight: bold;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (max-width: 700px) {
+
+h1{
+	font-size: 50px;
+}
+
+h5{
+	font-size: 18px;
+}
+
+#row2{
+	margin-top: 20%;
+    text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+	#botao{
+	margin-top: 40%;
+	width: 150px;
+	background-color: #995a93;
+	border: 0;
+	height: 50px;
+	font-size: 23px;
+	font-weight: bold;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+}
