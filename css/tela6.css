@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+#titulo{
+		font-family: 'Roboto Slab', serif;
+		font-size: 25px;
+		
+	}
+
+
+	#row2Tela4{
+		width: 80%;
+		text-align: center;
+		font-weight: bold;
+		color: #ffffff;
+		display: block;
+		margin-left: auto;
+    	margin-right: auto
+
+	}
+
+	#botaoSim{
+		background-color: #e15b23;
+		border: 0;
+		border-radius: 10px;
+		width: 100px;
+
+	}
+
+	#botaoNao{
+		background-color: #e15b23;
+		border: 0;
+		border-radius: 10px;
+		width: 100px;
+
+	}
+
+	#p{
+		width: 90%;
+		text-align: left;
+		width: 100%;
+
+
+	}
+
+	
+	#botao{
+	font-family: Arial, serif;
+	margin-top: 13%;
+	width: 235px;
+	background-color: #995a93;
+	 border-radius: 10px;
+	border: 0;
+	height: 50px;
+	font-size: 22px;
+	font-weight: bold;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	#titulo{
+		font-family: 'Roboto Slab', serif;
+		font-size: 18px;
+		
+	}
+
+
+	#row2Tela4{
+		width: 98%;
+		font-weight: bold;
+		color: #ffffff;
+		text-align: center;
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+		
+	}
+
+	#mobile{
+		font-size: 19px;
+	}
+	#botaoSimNaoMobile{
+
+	}
+
+	
+	#p{
+		text-align: left;
+		width: 100%;
+
+	}
+
+	#botao{
+	font-family: Arial, serif;
+	margin-top: 50px;
+	width: 220px;
+	background-color: #995a93;
+	 border-radius: 10px;
+	border: 0;
+	height: 50px;
+	font-size: 21px;
+	font-weight: bold;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+}
