@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 body{
 	overflow-x: hidden;
 	background-image:url(../img/back.jpg)
 	
 }
 
+
+
 h1{
+	font-family: 'Roboto Slab', serif;
 	font-size: 80px;
 }
 
 h5{
+	font-family: Arial;
 	font-size: 25px;
 }
 
@@ -21,20 +27,28 @@ h5{
 }
 
 #row2{
-
 	text-align: center;
 	font-weight: bold;
 	color: #ffffff;
 
 }
 
+#row3{
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+
+}
+
 #botao{
+	font-family: Arial, serif;
 	margin-top: 13%;
 	width: 150px;
 	background-color: #995a93;
 	border: 0;
 	height: 50px;
-	font-size: 23px;
+	font-size: 22px;
 	font-weight: bold;
 	display: block;
 	margin-left: auto;
@@ -43,12 +57,32 @@ h5{
 
 @media only screen and (max-width: 700px) {
 
+body{
+	background-image:url(../img/back-mobile.jpg);
+}
+
+#logo-img{
+	margin-top: 2%;
+	max-width: 200px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+
+}
+
 h1{
+	font-family: 'Roboto Slab', serif;
 	font-size: 50px;
 }
 
 h5{
+	width: 75%;
+	font-family: Arial;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
 	font-size: 18px;
+
 }
 
 #row2{
@@ -57,14 +91,22 @@ h5{
 	font-weight: bold;
 	color: #ffffff;
 }
+#row3{
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+
+}
 
 	#botao{
+	font-family: Arial, serif;
 	margin-top: 40%;
 	width: 150px;
 	background-color: #995a93;
 	border: 0;
 	height: 50px;
-	font-size: 23px;
+	font-size: 21px;
 	font-weight: bold;
 	display: block;
 	margin-left: auto;
