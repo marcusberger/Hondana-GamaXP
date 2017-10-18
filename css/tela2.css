@@ -1,59 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-body{
-	overflow-x: hidden;
-	background-image:url(../img/back.jpg)
-	
-}
-
-
-
-h1{
-	font-family: 'Roboto Slab', serif;
-	font-size: 80px;
-}
-
-h5{
-	font-family: Arial;
-	font-size: 25px;
-}
-
-#logo-img{
-	max-width: 300px;
+#form{
 	display: block;
 	margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    width: 90%;
+    font-size: 25px;
+
 
 }
 
-#row2{
-	text-align: center;
-	font-weight: bold;
-	color: #ffffff;
-
+#nome{
+	font-size: 20px;
 }
 
-#row3{
+#email{
+	font-size: 20px;
+	
+}
+#empresa{
+	font-size: 20px;
+}
+
+
+#h1Tela2{
 	font-family: 'Roboto Slab', serif;
-	font-weight: bold;
+	font-size: 20px;
 	color: #ffffff;
-	text-align: center;
-
+	
 }
 
 #botao{
 	font-family: Arial, serif;
-	margin-top: 13%;
+	margin-top: 3%;
 	width: 150px;
 	background-color: #995a93;
 	border: 0;
 	height: 50px;
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: bold;
 	display: block;
 	margin-left: auto;
     margin-right: auto
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -67,40 +55,18 @@ body{
 	max-width: 200px;
 	display: block;
 	margin-left: auto;
-    margin-right: auto
-
-}
-
-h1{
-	font-family: 'Roboto Slab', serif;
-	font-size: 50px;
-}
-
-h5{
-	width: 75%;
-	font-family: Arial;
-	display: block;
-	margin-left: auto;
     margin-right: auto;
-	font-size: 18px;
 
 }
 
-#row2{
-	margin-top: 20%;
-    text-align: center;
-	font-weight: bold;
-	color: #ffffff;
-}
-#row3{
+#h1Tela2{
 	font-family: 'Roboto Slab', serif;
-	font-weight: bold;
+	font-size: 18px;
 	color: #ffffff;
-	text-align: center;
-
 }
 
-	#botao{
+
+#botao{
 	font-family: Arial, serif;
 	margin-top: 160px;
 	width: 150px;
